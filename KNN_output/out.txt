@@ -1,0 +1,22 @@
+﻿Preprocessing data...
+Preprocessing data complete.
+Starting KNN algorithm...
+Starting KNN testing loop...
+Accuracy at K = 3: 0.09896450334512294
+Accuracy at K = 4: 0.09834235309157541
+Accuracy at K = 5: 0.09834235309157541
+Accuracy at K = 6: 0.0984701921847701
+Accuracy at K = 7: 0.099791196147782
+Accuracy at K = 8: 0.10015766821494013
+Accuracy at K = 9: 0.10039630118890357
+Accuracy at K = 10: 0.10055823070695019
+Accuracy at K = 11: 0.10077129586227468
+Accuracy at K = 12: 0.10147867217795202
+Accuracy at K = 13: 0.10192184770102697
+Accuracy at K = 14: 0.10190480248860101
+Accuracy at K = 15: 0.10228831976818512
+Accuracy at K = 16: 0.10285081177824179
+Accuracy at K = 17: 0.10285081177824179
+Accuracy at K = 18: 0.10282524395960285
+Accuracy at K = 19: 0.10309796735841821
+Accuracy at K = 20: 0.10307239953977926
