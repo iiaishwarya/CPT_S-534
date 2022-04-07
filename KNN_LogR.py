@@ -53,7 +53,7 @@ def k_nearest_neighbors(x_train, y_train, x_test, y_test, k, test=False):
 
             # test prediction
             pred_y = n.predict(x_test)
-            print("Accuracy at K = " + str(k) + ": " + str(metrics.accuracy_score(y_test, pred_y)))
+            print("Accuracy at K = " + str(i) + ": " + str(metrics.accuracy_score(y_test, pred_y)))
     
     print("KNN algorithm complete.")
 
