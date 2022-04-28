@@ -27,6 +27,8 @@ def loadData():
     tracks['release_date']
     tracks['year'] = tracks['release_date'].dt.year
     features = getFeature()
+    tracks = (tracks.replace([np.inf, -np.inf], np.nan))
+    tracks = tracks.dropna(axis=0, how='any')
     X, y = tracks[features], tracks['popularity']
     return X, y
 
