@@ -31,8 +31,8 @@ print("Results ---- Decision Tree")
 
 # KNN Regressor
 
-train_rmse, test_rmse, r2_train, r2_test, y_train_pred, y_test_pred, mae = knnr.KNeighborsRegressor(
-    X_train, y_train, X_test, y_test, 2)
+train_rmse, test_rmse, r2_train, r2_test, y_train_pred, y_test_pred, mae = knnr.model_KNN_regressor(
+    X_train, y_train, X_test, y_test)
 
 
 # Neural Network
@@ -42,7 +42,7 @@ nn.modelNN(X_train, y_train, X_test, y_test)
 # Linear Regression
 
 train_rmse, test_rmse, r2_train, r2_test, y_train_pred, y_test_pred, mae = Algorithms.LR.model_linear(
-    X_train, y_train, X_test, y_test, 2)
+    X_train, y_train, X_test, y_test)
 
 print("Results ---- Linear Regression")
 
